@@ -84,6 +84,10 @@ page {
      }
      */
 
+    # favicon
+    shortcutIcon = fileadmin/images/favicon.ico
+
+
     headerData {
 		0 = TEXT
 		0.value (
