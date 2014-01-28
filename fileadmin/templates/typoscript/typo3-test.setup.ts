@@ -25,7 +25,8 @@ page.config {
 
     # SEO/SEF-Einstellungen
     simulateStaticDocuments = 0
-    baseURL = http://ctserver.echo.local/projekte/typo3/
+    #baseURL = http://ctserver.echo.local/projekte/typo3/
+    baseURL = http://bz-kassel.marko/
     tx_realurl_enable = 1
     prefixLocalAnchors = all
     linkVars = L
