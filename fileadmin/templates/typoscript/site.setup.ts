@@ -44,7 +44,13 @@ page.config {
     time_stdWrap.strftime = %H:%M
 
 
+
 }
+
+# Cache abschalten wenn beUser eingeloggt
+[globalVar  =TSFE : beUserLogin > 0]
+    page.config.no_cache = 1
+[global]
 
 
 #######################################
