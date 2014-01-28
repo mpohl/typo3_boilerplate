@@ -33,9 +33,9 @@ page.config {
 
 
     #css zusammenfassen
-    concatenateCss = 1
+    concatenateCss = 0
     #javascript zusammenfassen
-    concatenateJs = 1
+    concatenateJs = 0
 
     # Kommentare vom Content abstellen
     disablePrefixComment = 1
@@ -66,12 +66,17 @@ page {
 
     includeCSS {
         mainStyle = fileadmin/templates/stylesheets/style.css
-        nextStyle = fileadmin/templates/stylesheets/next.css
     }
 
      includeJS {
         mainScript = fileadmin/templates/javascripts/site.js
      }
+
+     /*
+     includeJSFooter {
+        footerScript = fileadmin/templates/javascripts/footer.j
+     }
+     */
 
     headerData {
 		0 = TEXT
