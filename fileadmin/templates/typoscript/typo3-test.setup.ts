@@ -84,7 +84,7 @@ page {
 	10 = FLUIDTEMPLATE
     10 {
         template = FILE
-        template.file = fileadmin/templates/page.html
+        template.file = fileadmin/templates/fluid/page.html
         variables {
             content < styles.content.get
             navigation  < lib.field_navigation
