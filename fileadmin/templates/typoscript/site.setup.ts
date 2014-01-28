@@ -104,6 +104,7 @@ page {
         variables {
             content < styles.content.get
             navigation  < lib.field_navigation
+            breadcrumb < lib.field_breadcrumb
         }
         /*
         variables {
