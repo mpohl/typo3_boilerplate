@@ -11,7 +11,7 @@ return array(
 		'database' => 'bzkassel',
 		'extTablesDefinitionScript' => 'extTables.php',
 		'host' => 'localhost',
-		'password' => 'marko0963',
+		'password' => '',
 		'port' => 3306,
 		'username' => 'root',
 	),
