@@ -5,6 +5,7 @@ return array(
 		'explicitADmode' => 'explicitAllow',
 		'installToolPassword' => '$P$CJaAgNRIWW4liO64PH1U2RmtFg7TLF/',
 		'loginSecurityLevel' => 'rsa',
+		'versionNumberInFilename' => '0',
 	),
 	'DB' => array(
 		'database' => 'bzkassel',
@@ -81,6 +82,7 @@ return array(
 	'FE' => array(
 		'debug' => TRUE,
 		'loginSecurityLevel' => 'rsa',
+		'pageNotFound_handling' => 'READFILE:fileadmin/notfound.html',
 	),
 	'GFX' => array(
 		'colorspace' => 'sRGB',
