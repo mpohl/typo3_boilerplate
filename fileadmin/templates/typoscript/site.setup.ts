@@ -65,10 +65,11 @@ page {
     typeNum = 0
     */
 
-    /*
     headTag = <head>
     bodyTag = <body>
-    */
+
+
+    ## Head
 
     includeCSS {
         mainStyle = fileadmin/templates/stylesheets/style.css
@@ -84,58 +85,18 @@ page {
      }
      */
 
-    # favicon
-    shortcutIcon = fileadmin/images/favicon.ico
 
 
-    headerData {
-		0 = TEXT
-		0.value (
-            <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" />
-            <meta name="apple-mobile-web-app-capable" content="yes"/>
-            <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-		)
-	}
+    /*
+    meta.keywords.field = keywords
+    meta.description.field = description
+    description.ifEmpty (
+        Eine Einführung in das TYPO3 Backend und Tutorials zum CMS TYPO3
+    )
+    */
 
-	10 = FLUIDTEMPLATE
-    10 {
-        template = FILE
-        template.file = fileadmin/templates/fluid/page.html
-        variables {
-            content < styles.content.get
-            navigation  < lib.field_navigation
-            breadcrumb < lib.field_breadcrumb
-        }
-        /*
-        variables {
-            logo < lib.field_logo
 
-            topnavigation < lib.field_topnavigation
-
-            navigation  < lib.field_navigation
-
-            teaser < styles.content.getLeft
-            teaser {
-                select.where = colPos = 0
-            }
-
-            einleitung < styles.content.getLeft
-            einleitung {
-                select.where = colPos = 5
-            }
-
-            breadcrumb < lib.field_breadcrumb
-
-            sidebar < lib.field_sidebar
-
-            inhalt < styles.content.getLeft
-            inhalt {
-                select.where = colPos = 1
-            }
-
-            footer < lib.field_footer
-        }
-        */
-    }
 
 }
+
+

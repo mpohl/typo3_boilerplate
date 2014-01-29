@@ -80,6 +80,7 @@ return array(
 		),
 	),
 	'FE' => array(
+		'addRootLineFields' => 'description,keywords,author,author_email,abstract,author',
 		'debug' => TRUE,
 		'loginSecurityLevel' => 'rsa',
 		'pageNotFound_handling' => 'READFILE:fileadmin/notfound.html',
